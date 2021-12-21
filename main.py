@@ -1,5 +1,6 @@
 import os
 from Actions import operations as op
+from Actions import tasks as ts
 
 def main():
     
@@ -42,15 +43,15 @@ def main():
 
         # Printing the bmi values of all students
         if(x == 1):
-            pass
+            ts.printAllStudents(students)
 
         # Getting all overweight students
         elif(x == 2):
-            pass
+            ts.printAllOverweight(students)
 
         # Getting all healthy students
         elif(x == 3):
-            pass
+            ts.printAllHealthy(students)
             
         # Updating the height and weight of student
         elif(x == 4):
