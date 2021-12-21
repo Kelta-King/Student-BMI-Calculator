@@ -34,6 +34,31 @@ def main():
         students.append(line)
 
     # Now we have students object ready with BMI values
+    # Iteration to perform the tasks
+    while True:
+
+        # Getting the task number
+        x = op.getOperationNumber()
+
+        # Printing the bmi values of all students
+        if(x == 1):
+            pass
+
+        # Getting all overweight students
+        elif(x == 2):
+            pass
+
+        # Getting all healthy students
+        elif(x == 3):
+            pass
+            
+        # Updating the height and weight of student
+        elif(x == 4):
+            pass
+
+        else:
+            if(input("Incorrect input given. Press 'q' to quit:") == "q"):
+                break
 
     f.close()
     
